@@ -1,2 +1,3 @@
 *.nwb
 *.idea
+anaconda_projects/*
