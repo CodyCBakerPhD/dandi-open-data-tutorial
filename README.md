@@ -9,6 +9,8 @@ To make as short of a tutorial as possible for someone to get a minimal understa
 
 ### Philosophy
 
+Think about this as a "quick start" guide for DANDI.
+
 Minimize verbosity and maximize clarity.
 
 Alternate Markdown cells which prompt questions with short code snippets.
@@ -17,7 +19,7 @@ Consider how rendered views (via GitHub or DANDIHub) appear on mobile devices or
 
 Also consider how items appear in both light mode and dark mode.
 
-Think about this as a "quick start" guide for DANDI.
+Keep distractions (such as side topics or long explanations) to a minimum. Provide links to external resources for further reading instead.
 
 ### Design
 
