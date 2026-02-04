@@ -53,7 +53,7 @@ def main():
         if path.suffix == '.ipynb':
             if reset_notebook_execution_counts(path):
                 modified_files.append(file_path)
-                print(f"Reset execution counts in {file_path}")
+                print(f"Reset execution counts and metadata in {file_path}")
 
     return 0
 
