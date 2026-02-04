@@ -18,10 +18,10 @@ repos:
     additional_dependencies:
     - tomli
 
-#  - repo: local
-#    hooks:
-#      - id: reset-notebook-execution-counts
-#        name: Reset Notebook Execution Counts
-#        entry: python _reset_notebook_execution_counts.py
-#        language: system
-#        files: \.ipynb$
+- repo: local
+  hooks:
+    - id: reset-notebook-execution-counts
+      name: Reset Notebook Execution Counts
+      entry: python _reset_notebook_execution_counts.py
+      language: system
+      files: \.ipynb$
