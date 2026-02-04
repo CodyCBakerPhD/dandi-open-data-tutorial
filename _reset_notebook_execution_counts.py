@@ -31,21 +31,10 @@ def reset_notebook_execution_counts(notebook_path):
                 cell['execution_count'] = None
                 modified = True
 
-            # Reset execution_count in outputs
-            for output in cell.get('outputs', []):
-                if output.get('execution_count') is not None:
-                    output['execution_count'] = None
-                    modified = True
-
-                # Remove execution time metadata
-                if 'metadata' in output:
-                    if 'execution' in output['metadata']:
-                        del output['metadata']['execution']
-                        modified = True
-                    # Clean up empty metadata
-                    if not output['metadata']:
-                        del output['metadata']
-                        modified = True
+            # Always reset metadata (execution time, etc.)
+            if cell.get('metadata') is not None:
+                cell['metadata'] = dict()
+                modified = True
 
     if modified:
         with open(notebook_path, 'w', encoding='utf-8') as f:
