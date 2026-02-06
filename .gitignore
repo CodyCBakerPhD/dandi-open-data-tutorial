@@ -1,3 +1,4 @@
 *.nwb
 *.idea
 anaconda_projects/*
+.ipynb_checkpoints/*
