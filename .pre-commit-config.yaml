@@ -2,8 +2,9 @@ default_install_hook_types:
   - pre-commit
   - commit-msg
 
-ci:
-    skip: [reset-notebook-execution-counts]
+# This was suppressed after project finished
+#ci:
+#    skip: [reset-notebook-execution-counts]
 
 repos:
 -   repo: https://github.com/pre-commit/pre-commit-hooks
