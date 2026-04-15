@@ -1,6 +1,10 @@
 # DANDI Open Data Tutorial
 
-Development repo for concise tutorial of DANDI for the Open Data Registry.
+This was a development repo for a concise tutorial of DANDI for the Open Data Registry.
+
+It resulted in the eventual merge of https://github.com/awslabs/open-data-registry/pull/3072 to the Open Data Registry page for the DANDI Archive, which refers to the final version of the notebook found at:
+
+https://github.com/dandi/example-notebooks/blob/master/tutorials/open_data_quick_start_2026/Get-to-know-a-Dandiset.ipynb
 
 
 ### Goal
